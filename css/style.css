@@ -16,6 +16,16 @@
   transition: all 0.4s;
   box-shadow: 0 0px 20px 0 rgb(177, 172, 143);
 }
+.custom-img-1{
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.custom-img-1:hover{
+     transform: translateY(-10px);
+  box-shadow: 0 0px 40px 20px rgb(180, 174, 140);
+
+}
+
 .custom-img:hover{
    transform: translateY(-10px);
   box-shadow: 0 0px 40px 20px rgb(177, 172, 143);
@@ -44,6 +54,12 @@ text-div-1 {
 .img-div-1 {
   width: 50%;
 }
+
+/* .img-div-1:hover{
+   transform: translateY(-10px);
+  box-shadow: 0 0px 40px 20px rgb(241, 239, 226);
+
+} */
 
 .text {
   align-items: center;
